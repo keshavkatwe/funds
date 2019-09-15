@@ -1,29 +1,24 @@
-# kuvera
+# Funds
 
-## Project setup
+## Serve application commands
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### Runs on the localhost
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+http://localhost:2004/
 ```
 
-### Lints and fixes files
+### Docker
+#### Docker Build
 ```
-yarn run lint
+docker build . -t my-app
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Docker Run
+```
+docker run -d -p 8080:80 my-app
+curl localhost:8080
+```

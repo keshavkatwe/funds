@@ -1,7 +1,6 @@
 <template>
   <div class="header">
-    <img src="https://assets.kuvera.in/production/atlantis/web/assets/img/kuvera-logo-dark.svg"
-         alt="">
+    <h2>Funds</h2>
   </div>
 </template>
 
